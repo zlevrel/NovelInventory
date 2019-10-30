@@ -1,0 +1,24 @@
+<resources>
+
+    <color name="beige_clair">#fff0f0 </color>
+    <color name="beige">#ddb6c6 </color>
+    <color name="violet_clair">#ac8daf </color>
+    <color name="bleu_fonce">#484c7f </color>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/beige</item>
+        <item name="colorPrimaryDark">@color/bleu_fonce</item>
+        <item name="colorAccent">@color/violet_clair</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+
+
+
+
+
+
+</resources>
