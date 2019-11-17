@@ -17,7 +17,7 @@
             android:textSize="20sp"
             android:ellipsize="end"
             android:maxLines = "1"
-            android:layout_weight = "0.20"/>
+            android:layout_weight="0.2"/>
 
         <TextView
             android:id="@+id/novelScore"
@@ -26,7 +26,7 @@
             android:gravity="right"
             android:textColor="@color/bleu_fonce"
             android:textSize="15sp"
-            android:layout_weight = "0.80"/>
+            android:layout_weight="0.8"/>
 
     </LinearLayout>
 

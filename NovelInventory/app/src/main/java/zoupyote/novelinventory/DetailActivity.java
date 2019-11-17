@@ -60,10 +60,10 @@ public class DetailActivity extends AppCompatActivity {
             public void onClick(View v) {
                 update_novel = true;
                 Intent data = new Intent(v.getContext(), UpdateActivity.class);
-                data.putExtra("Name",novelName.getText());
-                data.putExtra("Writer",novelWriter.getText());
-                data.putExtra("Score",novelScore.getText());
-                data.putExtra("Comment",novelComment.getText());
+                data.putExtra("Name","" + novelName.getText());
+                data.putExtra("Writer","" + novelWriter.getText());
+                data.putExtra("Score","" + novelScore.getText());
+                data.putExtra("Comment","" + novelComment.getText());
                 data.putExtra("Position",position);
                 startActivityForResult(data,0);
             }
